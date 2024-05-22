@@ -2,7 +2,7 @@ import { url } from "inspector";
 import Image from "next/image";
 import Link from "next/link";
 
-const Product = ({ product }) => {
+const Product = ({ product }:any) => {
   return (
     <Link
       href={{
