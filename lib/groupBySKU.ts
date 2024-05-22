@@ -1,5 +1,5 @@
 export function groupBySKU(product:any){
-    return product.reduce((acc,curr)=>{
+    return product.reduce((acc:any,curr:any)=>{
        const sku=curr.title
         if(!acc[sku]){
             acc[sku]=[]

@@ -1,5 +1,5 @@
 export function getCartTotal(products:any){
-const total=products.reduce((acc,curr)=>{
+const total=products.reduce((acc:any,curr:any)=>{
     return acc+curr.price
 },0)
 
